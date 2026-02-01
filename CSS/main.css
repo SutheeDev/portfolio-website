@@ -124,7 +124,8 @@ h3 {
   font-size: var(--fs-p);
   line-height: 138%;
   letter-spacing: 0.03em;
-  max-width: 300px;
+  max-width: 26vw;
+  margin-left: -28px;
 }
 .about-content,
 .questions p {
@@ -137,9 +138,9 @@ h3 {
 .intro-line2 h1 {
   word-spacing: 0.5vw;
 }
-/* .intro-p {
-  max-width: 300px;
-} */
+.intro-p {
+  max-width: 26vw;
+}
 .scroll p {
   font-family: "Space Grotesk";
   font-weight: 400;
@@ -188,6 +189,10 @@ h3 {
   line-height: 110%;
   text-align: center;
   letter-spacing: 0.16em;
+}
+.lineMid-slide {
+  display: flex;
+  justify-content: flex-end;
 }
 /* ---------------- */
 /* Fonts Footer*/
@@ -269,11 +274,8 @@ footer p,
 }
 .intro-line2 {
   display: grid;
-  grid-template-columns: 3fr 1fr;
+  grid-template-columns: 1fr 1fr;
   align-items: center;
-}
-.intro-line2 p {
-  margin-left: -19.7%;
 }
 .scroll {
   width: fit-content;
