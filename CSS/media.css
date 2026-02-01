@@ -1,6 +1,6 @@
-@media (max-width: 1100px) {
+@media (max-width: 1500px) {
   .intro-line2 p {
-    margin-left: -10%;
+    max-width: 33vw;
   }
 }
 @media screen and (max-width: 860px) {
@@ -8,7 +8,7 @@
   /* Root */
   /* ---------------- */
   :root {
-    --fs-h1: clamp(1rem, 24.5vw + 1rem, 21.8rem);
+    --fs-h1: clamp(20rem, 24.5vw + 1rem, 21.8rem);
     --fs-h2: clamp(1rem, 16.69vw + 8rem, 22rem);
     --fs-h3: clamp(4.1rem, 5vw + 3.1rem, 7.6rem);
     --fs-p: clamp(0.1rem, 0.7vw + 1rem, 1.6rem);
@@ -37,15 +37,14 @@
   }
   .intro-line2 {
     display: flex;
-    flex-direction: column;
     align-items: flex-start;
   }
   .intro-line2 p {
-    margin: 25px 0 0 0;
-    width: 49rem;
+    margin: 8px 0 0 35px;
+    max-width: 63vw;
   }
   .intro-p {
-    max-width: fit-content;
+    max-width: 24vw;
   }
   .container {
     padding: 0 55px;
@@ -177,8 +176,13 @@
   h3 {
     line-height: 60px;
   }
+  .intro-line2 {
+    flex-direction: column; 
+  }
   .intro-line2 p {
-    width: 42rem;
+    max-width: 75vw;
+    margin: 5px 0 0 0;
+    
   }
   .project-name {
     left: 30px;
@@ -260,7 +264,7 @@
 }
 @media screen and (max-width: 565px) {
   :root {
-    --fs-h1: clamp(1rem, 21.4vw + 0.8rem, 14rem);
+    --fs-h1: clamp(10rem, 21.4vw + 0.8rem, 14rem);
     --fs-h2: clamp(1rem, 13.69vw + 5rem, 15rem);
     --fs-h3: clamp(1rem, 4vw + 2.3rem, 5rem);
     --fs-btn: 1.2rem;
@@ -275,7 +279,7 @@
     width: 90%;
   }
   .intro-line2 p {
-    width: 34rem;
+    max-width: 64vw;
   }
   .container {
     padding: 0 35px;
@@ -387,7 +391,7 @@
     margin-top: 70px;
   }
   .intro-line2 p {
-    width: 18rem;
+    max-width: 100%;
   }
   /* ---------------- */
   /* About */

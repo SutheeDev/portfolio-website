@@ -33,16 +33,14 @@ linkContact.addEventListener("click", () =>
 // --------------------------------
 const swiperWrapper1 = document.querySelector(".swiper-wrapper1");
 const words = [
-  "web dev",
-  "3D development",
-  "frontend",
-  "animation",
-  "innovation",
-  "UI/UX",
-  "creative coding",
-  "design",
-  "backend",
-  "technology",
+  "interactive systems",
+  "scalable platforms",
+  "motion design",
+  "automation",
+  "system design",
+  "data interfaces",
+  "developer tools",
+  "creative tech",
 ];
 
 let allWords = words
@@ -91,12 +89,12 @@ document.addEventListener("DOMContentLoaded", () => {
   function populateText(width) {
     if (width <= 888) {
       introText1.innerText = "Creative";
-      introTextMid.innerText = "Full-Stack";
-      introText2.innerText = "App Engineer";
+      introTextMid.innerText = "Software";
+      introText2.innerText = "Engineer";
     } else {
-      introText1.innerText = "Creative Full-Stack";
+      introText1.innerText = "Creative Software";
       introTextMid.innerText = "";
-      introText2.innerText = "App Engineer";
+      introText2.innerText = "Engineer";
     }
   }
   populateText(width);
@@ -106,13 +104,13 @@ document.addEventListener("DOMContentLoaded", () => {
   // --------------------------------
   function changeHeadlineText(width) {
     if (width > 888) {
-      introText1.innerText = "Creative Full-Stack";
+      introText1.innerText = "Creative Software";
       introTextMid.innerText = "";
-      introText2.innerText = "App Engineer";
+      introText2.innerText = "Engineer";
     } else if (width > 490) {
       introText1.innerText = "Creative";
-      introTextMid.innerText = "Full-Stack";
-      introText2.innerText = "App Engineer";
+      introTextMid.innerText = "Software";
+      introText2.innerText = "Engineer";
     }
   }
   // Listen to resize and change headline text;
